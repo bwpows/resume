@@ -4,25 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lin Bowei</title>
+    <meta name="description" content="前端工程师简历">
+    <meta name="keywords" content="招聘，前端，找工作">
     <link rel="icon" href="./favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.bwpow.com/bootstrap-5.2.2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.bwpow.com/jquery-3.6.1.min.js"></script>
+    <script>
+      $(function(){
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
   </head>
   <body class="bg-color">
-
-    <header>
+    <div id="header"></div>
+    <!-- <header>
         <div class="col-12 col-lg-8 mx-auto d-flex align-self-center py-2 align-items-center my-2 px-3">
             <img src="./logo.svg" alt="logo" class="header_logo">
             <div class="flex-fill col-xs-0 col-sm-0"></div>
             <div class="d-flex text-white d-none d-sm-flex">
                 <div class="mx-4 hover_primary_text">首页</div>
-                <div class="mx-4 hover_primary_text">作品</div>
-                <div class="mx-4 hover_primary_text">联系我</div>
+                <a href="#works" class="mx-4 a-reset hover_primary_text">作品</a>
+                <a href="#contact" class="mx-4 a-reset hover_primary_text">联系我</a>
                 <a href="https://github.com/bwpows" target="_blank" class="mx-4 a-reset hover_primary_text">GitHub</a>
                 <a href="https://bwpow.com" target="_blank" class="mx-4 a-reset hover_primary_text">Blog</a>
             </div>
         </div>
-    </header>
+    </header> -->
     <div class="py-3 d-none d-sm-flex"></div>
 
     <div class="banner py-4 col-12 col-lg-8 mx-auto text-white px-3">
@@ -32,11 +41,11 @@
           <p class="mt-3 font-opacity-85 font-base">很高兴您能够来到这个网站</p>
           <hr>
           <p class="font-opacity-85 font-base">
-            自我介绍：林波伟，1999年2月出生，江西抚州人，2020年毕业于江西软件技术大学软件 技术专业。2019年在江西南昌实习，工作一年，2020年4月在深圳工作，工作到了2022年9月底从公司离职，现在处于待业中。
+            自我介绍：林波伟，1999年2月出生，江西抚州人，2020年大专毕业于江西软件技术大学软件 技术专业；在2021年本科成人自考江西理工大学，预计2023年7月毕业。<br />2019年在江西南昌实习，工作一年，2020年4月在深圳，2022年9月底从公司离职，处于失业中。
           </p>
           <hr>
           <p class="font-opacity-85 font-base">
-            有经验：Vue、微信小程序、ElementUI、VuetifyUI、NodeJS、H5、MongoDB、NestJS <br />
+            有经验：Vue、小程序、ElementUI、VuetifyUI、NodeJS、H5、MongoDB、NestJS、Express <br />
             了解：Python、Java、React、Mysql、Anted
           </p>
           <hr />
@@ -45,7 +54,7 @@
           </p>
           <hr>
           <p class="font-opacity-85 font-base">
-            UI界面是老板(指点)和我(设计)的。得益于经常看UI设计网站，积累美感，设计的页面也不是那么丑。如果感兴趣，那就请看下面作品UI，都是手机或者PC截屏的图。
+            UI界面是老板(指点)和我(设计)的。得益于经常看UI设计网站，积累美感。下面是我部分项目，图片来源手机或PC截图。
           </p>
         </div>
         <div class="flex-fill"></div>
@@ -58,23 +67,25 @@
     <div class="py-4 d-none d-sm-flex"></div>
     <!-- <div class="py-4 d-none d-sm-flex"></div> -->
 
-    <div class="bg-white py-4 px-xs-3 px-sm-3 px-3">
+    <div class="bg-white py-4 px-xs-3 px-sm-3 px-3" id="works">
       <div class="py-2"></div>
       <div class="display-6 font-opacity-85 text-center">bwpow</div>
       <div class=" text-center font-opacity-50 mt-2">(个人项目，和公司无关，小程序叫诺三)</div>
       <div class="py-4"></div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 mx-auto d-flex flex-wrap">
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-          <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work-compress.png" alt="" class="img-fluid work-img" alt="作品">
+          <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work-compress.webp" alt="" class="img-fluid work-img" alt="作品">
         </div>
         <div class="flex-fill col-xs-0 col-sm-0"></div>
         <div class="py-2 d-sm-none"></div>
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-          <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work2-compress.png" class="img-fluid work-img" alt="作品">
+          <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work2-compress.webp" class="img-fluid work-img" alt="作品">
         </div>
       </div>
       <div class="py-2"></div>
-      <div class="font-opacity-85 py-4 text-center hover_primary_text">进一步了解</div>
+      <div class="font-opacity-85 py-4 text-center">
+        <a href="work_1.html" class="mx-auto a-reset1 hover_primary_text" target="_blank">进一步了解</a>
+      </div>
     </div>
 
     <div class="py-4 text-white px-3">
@@ -87,6 +98,7 @@
           <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work-3-1.png" class="img-fluid work-img" alt="">
         </div>
         <div class="flex-fill col-xs-0 col-sm-0"></div>
+        <div class="py-2 d-sm-none"></div>
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
           <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work-3-2.png" alt="" class="img-fluid work-img">
         </div>
@@ -95,7 +107,7 @@
       <div class="font-opacity-85 py-4 text-center hover_primary_text">进一步了解</div>
     </div>
 
-    <div class="bg-white py-4 px-3">
+    <div class="py-4 bg-white px-3">
       <div class="py-2"></div>
       <div class="display-6 font-opacity-85 text-center">OA系统</div>
       <div class=" text-center font-opacity-50 mt-2">(内部系统，不方便透露太多，测试数据)</div>
@@ -105,6 +117,7 @@
           <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work-4-1.png" class="img-fluid work-img" alt="">
         </div>
         <div class="flex-fill col-xs-0 col-sm-0"></div>
+        <div class="py-2 d-sm-none"></div>
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
           <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work-4-2.png" alt="" class="img-fluid work-img">
         </div>
@@ -117,7 +130,7 @@
       <div class="py-2"></div>
       <div class="display-6 font-opacity-85 pb-4 text-center">黑骆驼小程序</div>
       <div class="py-2"></div>
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 mx-auto d-flex flex-wrap">
+      <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 mx-auto d-flex flex-wrap">
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
           <img src="http://159.75.79.247:56452/down/mQqrOprMbLk4" class="img-fluid work-img" alt="">
         </div>
@@ -125,29 +138,130 @@
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
           <img src="http://159.75.79.247:56452/down/QH8uD8fWob97" alt="" class="img-fluid work-img">
         </div>
-      </div>
+      </div> -->
       <div class="py-2"></div>
       <div class="font-opacity-85 py-4 text-center hover_primary_text">进一步了解</div>
     </div>
 
     <div class="py-4 bg-white px-3">
+      <div class="py-2"></div>
+      <div class="display-6 font-opacity-85 pb-4 text-center">Comhouse App</div>
+      <div class="py-4"></div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 mx-auto d-flex flex-wrap">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <div style="font-size: 1.4rem;" class="mb-1">项目介绍</div>
+          <div class="font-base">自动化灌溉系统，解决传统使用手动灌溉花园和院子等场景费时费力。灌溉器共十六条通道，覆盖面积广，解决小中大型场景，可接入风雨传感器。</div>
+          <div style="font-size: 1.4rem;" class="mt-4 mb-1">特色功能</div>
+          <div class="font-base">
+            <ol class="px-0 mx-4">
+              <li>浇水时间：可自定义浇水时间</li>
+              <li>浇水时长：可自定义浇水时长</li>
+              <li>浇水间隔：可设置每天，每隔几天</li>
+              <li>天气预警：可查看设备所在地的天气，也可以选择其他的位置。</li>
+              <li>创建计划：自定义设置浇水具体时间、时长、间隔、突发天气，以颜色区分渲染到App日历上。</li>
+            </ol>
+          </div>
+          <div style="font-size: 1.4rem;" class="mt-4 mb-1">技术介绍</div>
+          <div class="font-base">由硬件工程师、嵌入式软件工程师、Java后端工程师和前端工程师各一人完成；前端技术是Vue框架搭建，使用Vuetify UI界面框架，使用Axios请求数据。</div>
+        </div>
+        <div class="flex-fill col-xs-0 col-sm-0"></div>
+        <div class="py-2 d-sm-none"></div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work-5-1.webp" class="img-fluid work-img" alt="">
+        </div>
+      </div>
+      <div class="py-4"></div>
+    </div>
+
+    <div class="py-4 text-white px-3">
+      <div class="py-2"></div>
+      <div class="display-6 font-opacity-85 pb-4 text-center">SmartSafeBox App</div>
+      <div class="py-4"></div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 mx-auto d-flex flex-wrap">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work-7-1.webp" class="img-fluid work-img" alt="">
+        </div>
+        <div class="flex-fill col-xs-0 col-sm-0"></div>
+        <div class="py-2 d-sm-none"></div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <div style="font-size: 1.4rem;" class="mb-1">项目介绍</div>
+          <div class="font-base">非常实用的智能门窗管理服务软件，软件功能非常强大，里面提供远程控制、定时控制等功能；
+            用户随时随地都能控制家中设备，还能分享给家人朋友使用，操作非常简单。</div>
+          <div style="font-size: 1.4rem;" class="mt-4 mb-1">特色功能</div>
+          <div class="font-base">
+            <ol class="px-0 mx-4">
+              <li>可视化：窗户打开的角度</li>
+              <li>定时开关：可设置早晚打开的时间</li>
+              <li>共享设备：输入对方手机号，可共享设备</li>
+              <li>窗户角度：从开到关一共100%，可随意调节</li>
+              <li>设置位置：可修改位置，直观的知道是哪个位置的窗户</li>
+            </ol>
+          </div>
+          <div style="font-size: 1.4rem;" class="mt-4 mb-1">技术介绍</div>
+          <div class="font-base">由硬件工程师、嵌入式软件工程师、Java后端工程师和前端工程师各一人完成；前端技术是Vue框架搭建，使用Vuetify UI界面框架，使用Axios请求数据。</div>
+        </div>
+      </div>
+      <div class="py-4"></div>
+    </div>
+
+    <div class="py-4 bg-white px-3">
+      <div class="py-2"></div>
+      <div class="display-6 font-opacity-85 pb-4 text-center">春光五金 App</div>
+      <div class="py-4"></div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 mx-auto d-flex flex-wrap">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <div style="font-size: 1.4rem;" class="mb-1">项目介绍</div>
+          <div class="font-base">非常实用的智能门窗管理服务软件，软件功能非常强大，里面提供远程控制、定时控制等功能；
+            用户随时随地都能控制家中设备，还能分享给家人朋友使用，操作非常简单。</div>
+          <div style="font-size: 1.4rem;" class="mt-4 mb-1">特色功能</div>
+          <div class="font-base">
+            <ol class="px-0 mx-4">
+              <li>可视化：窗户打开的角度</li>
+              <li>定时开关：可设置早晚打开的时间</li>
+              <li>共享设备：输入对方手机号，可共享设备</li>
+              <li>窗户角度：从开到关一共100%，可随意调节</li>
+              <li>设置位置：可修改位置，直观的知道是哪个位置的窗户</li>
+            </ol>
+          </div>
+          <div style="font-size: 1.4rem;" class="mt-4 mb-1">技术介绍</div>
+          <div class="font-base">由硬件工程师、嵌入式软件工程师、Java后端工程师和前端工程师各一人完成；前端技术是Vue框架搭建，使用Vuetify UI界面框架，使用Axios请求数据。</div>
+        </div>
+        <div class="flex-fill col-xs-0 col-sm-0"></div>
+        <div class="py-2 d-sm-none"></div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work-6-1.webp" class="img-fluid work-img" alt="">
+        </div>
+      </div>
+      <div class="py-4"></div>
+      <!-- <div class="font-opacity-85 py-4 text-center hover_primary_text">进一步了解</div> -->
+    </div>
+
+    <div class="py-4 text-white px-3">
+      <div class="py-2"></div>
+      <div class="display-6 font-opacity-85 pb-4 text-center">电商项目</div>
+      <div class="py-2"></div>
+      <div class="py-2"></div>
+      <div class="font-opacity-85 py-4 text-center hover_primary_text">进一步了解</div>
+    </div>
+
+    <div class="py-4 bg-white px-3" id="contact">
       <div class="py-3"></div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 d-flex flex-wrap mx-auto">
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-          <div class="display-6 font-opacity-85 pb-2 text-center">Contact Me</div>
+          <div class="display-6 font-opacity-85 pb-4 text-center">联系我</div>
           <div class="font-opacity-50 text-center">最底部有我的手机号码，也可以直接联系我</div>
           <div class="py-3"></div>
           <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput" class="font-opacity-50">Email address</label>
+            <label for="floatingInput" class="font-opacity-50">您的邮箱</label>
           </div>
           <div class="form-floating mb-3" style="width: 100%;">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" style="width: 100%;">
-            <label for="floatingInput" class="font-opacity-50">Phone Mobile</label>
+            <label for="floatingInput" class="font-opacity-50">您的电话</label>
           </div>
           <div class="form-floating">
             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-            <label for="floatingTextarea2" class="font-opacity-50">Text...</label>
+            <label for="floatingTextarea2" class="font-opacity-50">留言...</label>
           </div>
           <div class="py-2"></div>
           <div class="d-flex mt-4">
@@ -161,17 +275,10 @@
       <div class="py-2"></div>
     </div>
 
-    <footer class="col-xs-12 col-sm-12 col-md-12 col-lg-8 mx-auto text-white">
-      <div class="py-3"></div>
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-        <a href="tel:17779467369" class="a-reset hover_primary_text">Phone: 17779467369</a> <br /> <br />
-        <a href="weixin://" class="a-reset hover_primary_text">wechat: bwpows</a>
-        <br /> <br />
-        <a href="mailto:bwpows@gmail.com" class="a-reset hover_primary_text">email: bwpows@gmail.com</a>
-      </div>
-      <div class="py-2"></div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <div id="footer"></div>
+
+    <script src="https://cdn.bwpow.com/bootstrap.bundle-5.2.2.min.js"></script>
     <script>
       window._AMapSecurityConfig = {
         securityJsCode:'4e728ee9def39d24775e9d18640ff113',
@@ -194,6 +301,7 @@
         offset: new AMap.Pixel(-13, -24),
       });
       marker.setMap(map);
+
     </script>
   </body>
 </html>
