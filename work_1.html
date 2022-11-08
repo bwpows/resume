@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lin Bowei</title>
+    <title>Bwpow</title>
+    <meta name="keywords" content="招聘，前端，找工作，林波伟">
     <meta name="description" content="前端工程师简历">
-    <meta name="keywords" content="招聘，前端，找工作">
     <link rel="icon" href="./favicon.ico">
     <link href="https://cdn.bwpow.com/bootstrap-5.2.2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -20,9 +20,61 @@
 </head>
 <body class="bg-color">
     <div id="header"></div>
-    <div class="py-3 d-none d-sm-flex"></div>
-    <div>work</div>
+    <div class="py-3 bg-white d-none d-sm-flex"></div>
+
+    <div class="bg-white py-4 px-xs-3 px-sm-3 px-3" id="works">
+        <div class="py-2"></div>
+        <div class="display-6 font-opacity-85 text-center">bwpow</div>
+        <div class=" text-center font-opacity-50 mt-2">(个人项目)</div>
+        <div class="py-4"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 mx-auto d-flex flex-wrap">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <img src="https://app.bwpow.com:3000/uploadFiles/2022-11-01/work-compress.webp" alt="" class="img-fluid work-img" alt="作品">
+            </div>
+            <div class="flex-fill col-xs-0 col-sm-0"></div>
+            <div class="py-2 d-sm-none"></div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 font-base">
+                <div style="font-size: 1.4rem;" class="mb-1">项目介绍</div>
+                因为我之前总能忘记一些事情没做，所以我想弄一个备忘录；后来想节制一下消费，所以又搞了一个记账工具，所以这个项目就这样产生了。从设计、前端、后端、测试、发布由我一人完成。
+                <div style="font-size: 1.4rem;" class="mt-4 mb-1">特色功能</div>
+                <ol class="px-3">
+                    <li>一键登录：登录注册一体化，利用手机号验证码即可完成</li>
+                    <li>分享事情：和朋友圈一样，可设置隐私作品</li>
+                    <li>记账工具：可记录每天的消费和收入</li>
+                    <li>任务列表：可创建任务，自定义截止日期</li>
+                    <li>主题切换：有夜间和白天模式</li>
+                </ol>
+                <div style="font-size: 1.4rem;" class="mt-4 mb-1">技术介绍</div>
+                <div>这个项目有小程序端、App端、后台管理、Node后端</div>
+                <div>App端：Hbuilder打包App，用Vue + VuetifyJS + VueRouter + Vuex + Axios + H5 Plus，H5 Plus主要是控制底层功能，比如相机，确认弹窗，选择图片</div>
+                <div>小程序端：原生小程序开发，weui样式，属于个人开发范畴</div>
+                <div>后台管理：用Vue3 + TypeScript + VuetifyJS + VueRouter + Vuex + Axios</div>
+                <div>Node后端：NestJS框架 + MongoDB</div>
+            </div>
+        </div>
+        <div class="py-4"></div>
+    </div>
     <div id="footer"></div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+
+<script src="https://cdn.bwpow.com/bootstrap.bundle-5.2.2.min.js"></script>
+
+<script>
+
+    let aaa = 'abccba'
+    function trans(str){
+        let flag = false
+        for(let i = 0; i < aaa.length; i++){
+            if(aaa[i] == aaa[i+1]){
+                aaa[i] = ''
+                aaa[i+1] = ''
+                return true
+            }
+        }
+    }
+    trans()
+
+</script>
 </html>
+
