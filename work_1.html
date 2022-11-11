@@ -62,18 +62,25 @@
 
 <script>
 
-    let aaa = 'abccba'
-    function trans(str){
-        let flag = false
-        for(let i = 0; i < aaa.length; i++){
-            if(aaa[i] == aaa[i+1]){
-                aaa[i] = ''
-                aaa[i+1] = ''
-                return true
+    function test(){
+        // console.log(a)
+        // let a = 0;
+
+        console.log(b)
+        var b = 0;
+
+        function fn(a){
+            return function (b) {
+                return a + b
             }
         }
+
+        let fn1 = fn(6);
+        console.log(fn1(20)); // 26
+        console.log(fn1(7)); // 13
     }
-    trans()
+
+    test()
 
 </script>
 </html>
