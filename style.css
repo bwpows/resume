@@ -79,6 +79,11 @@
 
 .work-img {
     border-radius: 10px;
+    opacity: 0;
+    -webkit-animation: opacity 3s;
+    -moz-animation: opacity 3s;
+    -o-animation: opacity 3s;
+    -ms-animation: opacity 3s;
 }
 
 #container {height: 500px; }
